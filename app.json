@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "knoefy",
+    "slug": "knoefy",
+    "orientation": "landscape",
+    "scheme": "knoefy",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "requireFullScreen": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-screen-orientation",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/font/Caveat Brush.ttf"
+          ]
+        }
+      ],
+      "expo-video"
+    ]
+  }
+}
