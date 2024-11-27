@@ -5,21 +5,21 @@ import { initReactI18next } from 'react-i18next';
 const english = {
     "translation": {
         "index": {
-            "title": "What should we do?"
+            "title": "What do you want to do?"
         },
         "films": {
-            "title": "Video's"
+            "title": "Videos"
         },
         "games": {
-            "title": "What should we play?",
+            "title": "What do you want to play?",
             "memory": "Memory",
-            "tictactoe": "Tic Tac Toe"
+            "tictactoe": "Tic-Tac-Toe"
         },
         "feelings": {
-            "title": "How do you feel?",
+            "title": "How are you feeling?",
             "blij": "Happy",
             "boos": "Angry",
-            "bang": "Scared",
+            "bang": "Afraid",
             "verdrietig": "Sad"
         },
         "slider": {
@@ -28,28 +28,28 @@ const english = {
         "tips": {
             "title": "Tips and tricks",
             "blij": [
-                "Who do you tell when you feel happy?",
-                "Go to the people who make you happy",
-                "What do you enjoy doing the most?",
+                "Who do you talk to when you’re feeling happy?",
+                "Go to the people that make you happy",
+                "What do you enjoy doing?",
                 "Give someone a hug"
             ],
             "boos": [
-                "Who do you tell when you feel angry?",
-                "Find a quiet place, count to ten, breathe calmly",
-                "Punch in the air and stomp on the ground",
-                "Find a distraction, a movie or a game"
+                "Who do you talk to when you’re feeling angry?",
+                "Look for a quiet spot, count to ten, and take deep breaths",
+                "Punch your fists in the air and stomp your feet on the ground",
+                "Look for a distraction, like a video or a game"
             ],
             "bang": [
-                "Who do you tell when you feel afraid?",
-                "Find a safe place, where you feel at home",
-                "Make a hug mountain! Pile all your stuffed animals, pillows, and blankets in a corner",
-                "Go to the people where you feel safe, give them a hug"
+                "Who do you talk to when you’re feeling afraid?",
+                "Look for a save space, where you feel comfortable",
+                "Make a cuddle pile! Pile all your stuffed animals, pillows, and blankets in a corner",
+                "Go to the people who make you feel safe, give them a hug"
             ],
             "verdrietig": [
-                "Who do you tell when you feel sad?",
-                "You can always cry, it is a healthy way to express your emotion",
-                "Find someone who can cheer you up",
-                "Find a distraction, a movie or a game"
+                "Who do you talk to when you’re feeling sad?",
+                "It is always okay to cry. It is a healthy way to express your emotions.",
+                "Go to someone who can cheer you up",
+                "Look for a distraction, like a video or a game"
             ]
         }
     }
